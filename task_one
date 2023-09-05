@@ -1,0 +1,8 @@
+def find_two_lowest(list):
+    sorted_list = sorted(list)
+    lowest1, lowest2 = sorted_list[:2]
+    return lowest1, lowest2
+
+list = [198, 3, 4, 9, 10, 9, 2]
+lowest1, lowest2 = find_two_lowest(list)
+print(lowest1, lowest2)  
