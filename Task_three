@@ -1,0 +1,12 @@
+def max_diff(arr: list):
+    if len(arr) == 0:
+        return 0
+    arr.sort()
+    largest = arr[-1]
+    smallest = arr[0]
+    difference = largest - smallest
+    return difference
+
+input_list = [3, 5, 7, 2]
+result = max_diff(input_list)
+print(result)  
