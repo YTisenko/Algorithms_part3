@@ -1,0 +1,8 @@
+def subtract_min(list):
+    min_element = min(list)
+    result = [x - min_element for x in list]
+    return result
+
+list = [9, 2, 5, 4, 7, 6, 1]
+result = subtract_min(list)
+print(result) 
