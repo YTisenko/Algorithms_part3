@@ -1,0 +1,8 @@
+def invert_list(list):
+    inverted_list = [] 
+    for num in range(len(list)):
+        inverted_list.append(-list[num])
+    return inverted_list
+
+list = [1, 5, -2, -4]
+print(invert_list(list))  
